@@ -1,6 +1,8 @@
 namespace Diggers_and_Fliers 
 {
-    class Ant {
-        
+    
+        public class Ant : IMoveOnGround {
+        public bool WillWalkOnGround { get; set; }
+        public int LegCount { get; set; }
     }
-}
+    }
